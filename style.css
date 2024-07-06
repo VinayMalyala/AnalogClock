@@ -11,4 +11,35 @@
     background-size: cover;
     border: 2px solid red;
     margin: auto;
+    position: relative;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour{
+    width: 2.1%;
+    height: 18%;
+    top: 31%;
+    left: 48.8%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 1.5%;
+    height: 29%;
+    top: 19%;
+    left: 49%;
+    opacity: 0.8;
+}
+
+#second{
+    width: 1%;
+    height: 35%;
+    top: 13%;
+    left: 49.1%;
+    opacity: 0.8;
 }
